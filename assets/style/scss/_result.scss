@@ -1,0 +1,26 @@
+.recommBox{
+    width: 255px;
+    border-radius:8px 0 0 8px;
+    background-position: center center;
+    background-size: cover;
+}
+.footerSpace{
+    white-space:nowrap;
+}
+
+@media(max-width:1024px){
+    .footerSpace{
+        white-space:pre-wrap;
+    }
+    .w312{
+        width: 180px;
+    }
+}
+@media(max-width:768px){
+    .recommBox{
+        width: 150px;
+    }
+    .w312{
+        width: 120px;
+    }
+}

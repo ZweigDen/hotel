@@ -1,0 +1,95 @@
+.indexBg{
+    background-image: url("../../images/index-banner.jpg");
+    background-position: center center;
+    background-size: cover;
+    height: 320px;
+}
+.carouselCenter{
+    position: absolute;
+    right: 15%;
+    bottom: 35%;
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+}
+.searchBanner{
+    margin-top: -50px;
+}
+.searchBannerIn{
+    border-radius:8px;
+}
+.imgBox{
+    height: 175px;
+    border-radius:8px;
+    background-position: center center;
+    background-size: cover;
+}
+.imgBox2{
+    height: 78px;
+    border-radius:8px;
+    background-position: center center;
+    background-size: cover;
+}
+.imgBox3{
+    height: 263px;
+    border-radius:8px;
+    background-position: center center;
+    background-size: cover;
+}
+.imgShadow{
+    border-radius:8px;
+    background: transparent linear-gradient(270deg, #00000000 0%, #000000 100%) 0% 0% no-repeat padding-box;
+    opacity: 1;
+    height: 100%;
+}
+.footerBox{
+    height: 320px;
+}
+// 隱藏選單
+.destinationMenu{
+    left: 0;
+    right: 0;
+    top:100%;
+    z-index: 2;
+    li {
+        width: 100%;
+    }
+}
+.guestMenu{
+    left: 0;
+    right: 0;
+    top:100%;
+    z-index: 2;
+    li {
+        width: 100%;
+    }
+}
+
+
+
+// 響應式
+@media(max-width:1024px){
+    .mediaBanner{
+        a{
+            font-size:24px;
+        }
+        h1{
+            font-size: 32px;
+            margin: 0 32px 0 32px;
+        }
+    }
+    .searchBanner{
+        bottom:-270px;
+    }
+    .searchBannerIn ul li{
+        width: 100%;
+    }
+}
+@media(max-width:768px){
+    .imgBox3{
+        height: 181px;
+    }
+}

@@ -1,0 +1,12 @@
+@import "../node_modules/bootstrap/scss/_functions.scss";
+@import "variables";
+@import "../node_modules/bootstrap/scss/mixins";
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+@import "main";
+
+// 分頁
+@import "index";
+@import "result";
+@import "detail";
+@import "login";
